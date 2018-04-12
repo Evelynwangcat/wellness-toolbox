@@ -1,0 +1,4 @@
+[10-Jan-2018 14:26:34 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 20
+[10-Jan-2018 14:27:05 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 20
+[10-Jan-2018 14:39:09 America/Toronto] PHP Catchable fatal error:  Object of class PDOStatement could not be converted to string in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 20
+[10-Jan-2018 14:56:21 America/Toronto] PHP Parse error:  syntax error, unexpected '?>' in /home/kouzaevi/public_html/wellness-toolbox/my-tools.php on line 74

@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Domine|Montserrat:300|Neuton');
+
+
+/* GENERAL */
+
+.colorButton {
+	background: linear-gradient(0.25turn, #d580fe, #0a9bd6);
+	color:#fff;
+	width: 15%;
+	padding: 5px;
+	font-size:14px;
+	text-align: center;
+	border-radius:20px;
+}
+
+body {
+	background-color: /*#99ccff*/#e6f1fc;
+    font-family:'Neuton' serif;
+}
+
+ul, #app-title, .wrapper, footer {
+	background-color: white;
+}
+
+h1, .intro-text, footer {
+		text-align: center;
+}
+
+#wrapper {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	
+}
+
+
+#app-title {
+	font-family: 'Domine', serif;
+}
+
+
+
+/* NAVIGATION */
+
+nav {
+	background-color: /*#99ccff*/#e6f1fc;
+	padding: 2em  3em 3em 3em;
+	margin: 0 auto;
+}
+
+nav img {
+	float: left;
+	padding-bottom: 0.5em;
+} 
+
+nav ul {
+	color: #0099ff;
+	list-style: none;
+	font: bold 1.1em 'Montserrat', sans-serif;
+	text-decoration: none;
+	margin-top: 2.5em;
+}
+
+nav ul li {
+	list-style: none;
+	display: inline-block;
+	padding-left: 21px;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+
+/* MAIN SECTION */
+
+#app-title {
+    font-size: 3em;
+}
+
+.intro-text {
+	width: 80%;
+	margin: 0 auto;
+	font: 1.2em 'Montserrat', sans-serif;
+	line-height: 1.5em;
+	padding: 0.8em;
+	/* border: 1px solid #369; */
+	background-color: white;
+}
+
+
+
+
+/*  TOOLS  */
+
+/*
+.wrapper {
+	position: absolute;
+
+}
+ */
+.tool-section h1 {
+	width: 100%;
+	/* height: 300px; */
+	
+	display: inline-block;	
+}
+
+.tool-section {
+	
+	margin-bottom: 4em;
+	margin-top: 3em;
+	background-color: #fff;
+	
+}
+
+
+/* FOOTER */
+
+footer {
+	color: #fff;
+	background-color: #8953A8;
+	padding: 3em 0 3em 0;
+}
+.blocktop{
+	margin-top: 40px;
+	background-color:#fff;
+	width:90%;
+}
+
+.blockdown{
+	margin-top: 20px;
+	background-color:#fff;
+	width:90%;
+}
+
+/********************************* MEDIA QUERIES *************************** */
+
+@media screen and (min-width: 960px) {
+	#wrapper {
+		width: 960px;
+		margin: 0 auto;
+	}
+
+	.tool-section h1 {
+	width: 20%;
+	/* height: 300px; */
+	display: inline-block;
+	vertical-align: top;	
+	}
+
+	.tool-description-container {
+		width: 60%;
+		display: inline-block;
+		background-color: #fff;
+	}
+
+	.tool-description {
+	display: inline-block;	
+}
+}
